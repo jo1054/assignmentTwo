@@ -1,15 +1,11 @@
 <!DOCTYPE html>
-<!-- saved from url=(0098)https://faculty.utrgv.edu/emmett.tomai/courses/3342/assignments/javascript/jquery_html_events.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+<html>
+<head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Assignment02: JavaScript, HTML and jQuery</title>
   
-  <link rel="stylesheet" href="./Assignment02_files/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-
-<script src="Assignment02.js"></script>
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- this is so I don't have to give you a separate CSS file -->
   <style>
@@ -34,20 +30,18 @@
 
   <p>Keep in mind that the linked JavaScript page runs top-to-bottom <em>as soon as it is retrieved</em>, not when the page is done loading.</p>
 
-  <p>Submit both files (<code>.html</code> and <code>.js</code>) to the GitHub repository here: </p><pre>https://classroom.github.com/a/EDyZ1L5H</pre><p></p>
+  <p>Submit both files (<code>.html</code> and <code>.js</code>) to the GitHub repository here: <pre>https://classroom.github.com/a/EDyZ1L5H</pre></p>
 
   <h2>Using JavaScript...</h2>
   
 <div class="panel panel-default">
   <div class="panel-heading">
-    
-<h4>Problem 1</h4>
-    <p>Replace the 
-    text below with "I hate you, Bob."</p>
+    <h4>Problem 1</h4>
+    <p>Replace the text below with "I hate you, Bob."</p>
   </div>
   
-  <div id=id1 class="panel-body">
-    <p  id="wishes">Happy Birthday, Bob!</p>
+  <div  id="id1" class="panel-body">
+    <p id="wishes">Happy Birthday, Bob!</p>
   </div>
 </div>  
 
@@ -59,7 +53,7 @@
   </div>
   
   <div class="panel-body">
-    <p><img id="ducky" src="./Assignment02_files/tumblr-really-loves-this-duckling-1-28612-1369861410-6_big.jpg"></p>
+    <p><img id="ducky" src="https://img.buzzfeed.com/buzzfeed-static/static/campaign_images/webdr01/2013/5/29/17/tumblr-really-loves-this-duckling-1-28612-1369861410-6_big.jpg"/></p>
   </div>
 </div>  
 
@@ -71,9 +65,9 @@
   </div>
   
   <div class="panel-body">
-    <p><img id="imgsize" src="./Assignment02_files/how-to-get-rid-of-gophers-what-is-more-efficient-gopher-traps-poisons-or-repellents-gopher-control-which-methods-are-approved-by-scientists.jpg"></p>
-    <p><img id="imgsize" src="./Assignment02_files/first-ferret.jpg"></p>
-    <p><img id="imgsize" src="./Assignment02_files/european-badger.jpg.838x0_q80.jpg"></p>
+    <p><img id="imgsize" src="https://stoppestinfo.com/images/news/2017/02/how-to-get-rid-of-gophers-what-is-more-efficient-gopher-traps-poisons-or-repellents-gopher-control-which-methods-are-approved-by-scientists.jpg"/></p>
+    <p><img id="imgsize"  src="https://www.petmd.com/sites/default/files/first-ferret.jpg"/></p>
+    <p><img id="imgsize" src="https://media.mnn.com/assets/images/2017/04/european-badger.jpg.838x0_q80.jpg"/></p>
   </div>
 </div>
 
@@ -83,14 +77,10 @@
     <p>When the button below is pushed, make the text red and twice as big.</p>
   </div>
   
-  
   <div id="red" class="panel-body">
-    <p id="redt"><button id="red" class="btn btn-primary">Click Me</button> AHHHHHH!</p>
+    <p id="redt"><button class="btn btn-primary">Click Me</button> AHHHHHH!</p>
   </div>
 </div>
-
-
-
 
 <div class="panel panel-default">
   <div class="panel-heading">
@@ -99,8 +89,8 @@
   </div>
   
   <div class="panel-body">
-    <p id="hi"><img id="hid" src="./Assignment02_files/Button Blank Green-01.png">
-      <span  class="hidden">Soylent Green is people!</span></p>
+    <p id="hi"><img id="hid" src="http://files.softicons.com/download/application-icons/soft-scraps-icons-by-deleket/png/128/Button%20Blank%20Green-01.png">
+      <span class="hidden">Soylent Green is people!</span></p>
   </div>
 </div>
 
@@ -112,9 +102,9 @@
   
   <div class="panel-body">
     <div>
-      <img id="hover" class="menu" src="./Assignment02_files/enhanced-buzz-1492-1379411828-15.jpg">
-      <img class="hover" src="./Assignment02_files/_88762487_junk_food.jpg">
-      <img class="hover" src="./Assignment02_files/seven-mile-beach-grand.jpg">
+      <img id="hover" class="menu" src="https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg"/>
+      <img id="hover1" class="menu"  src="https://ichef.bbci.co.uk/news/660/cpsprodpb/1325A/production/_88762487_junk_food.jpg"/>
+      <img id="hover2" class="menu" src="https://media-cdn.tripadvisor.com/media/photo-s/0e/85/48/e6/seven-mile-beach-grand.jpg"/>
     </div>
   </div>
 </div>
@@ -124,8 +114,8 @@
     <h4>Problem 7</h4>
     <p>Echo whatever the user types (letter-by-letter as they type it!) in the first textbox into the second textbox.</p>
   </div>
-  
-  <div class="panel-body">
+ 
+ <div class="panel-body">
     <input type='text' name='fname' class='chatinput' id='chatinput'>
     <div class='printchatbox' id='printchatbox'>
     <input id="output" type="textbox">
@@ -151,8 +141,8 @@
   </div>
   
   <div class="panel-body">
-    <input type="checkbox">Enable
-    <select>
+    <input id="check" type="checkbox">Enable</input>
+    <select name = "select" id="select" class="form-control" >
       <option value="0">Blue</option>
       <option value="1">3 lbs of cornmeal</option>
       <option value="2">Cats</option>
@@ -165,15 +155,17 @@
     <h4>Problem 10</h4>
     <p>When the user finishes entering a date in the textbox below, in any valid format, reformat it to the "mm/dd/yyyy" format.</p>
     <p>Working with dates is annoying. Add the <em>moment.js</em> library and use it for this problem, just like how we linked in the jQuery library.</p>
-      Engage with the <a href="https://momentjs.com/docs/" target="_blank">docs</a> to figure out what it can do for you.<p></p>  </div>
+      Engage with the <a href="https://momentjs.com/docs/" target="_blank">docs</a> to figure out what it can do for you.</p>  </div>
   
   <div class="panel-body">
-    <input type="textbox">
+    <input id="date" type="textbox">
   </div>
 </div>
 
 </div>
 
-<script src="./Assignment02_files/jquery.min.js.download"></script>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script src="page.js"></script>
 
-</body></html>
+</body>
+</html>
